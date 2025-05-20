@@ -21,3 +21,10 @@ function checkCountValue() {
         alert("Your insta post gained 20 followers! Nice Job!");
     }
 }
+
+// function resets follower count back to 0
+function resetCount() {
+    count = 0;
+    document.getElementById('countDisplay').innerHTML = count;
+    alert("Follower count has been reset");
+}
